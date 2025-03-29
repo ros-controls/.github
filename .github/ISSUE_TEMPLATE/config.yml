@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🔗 Have a question on how to use ros2_control?
+    url: https://robotics.stackexchange.com/
+    about: We use Robotics Stack Exchange for general project questions.
+  - name: 🔗 Looking for documentation of the ros2_control framework?
+    url: https://control.ros.org/
+    about: The ros2_control documentation is available at control.ros.org
+  - name: 🔗 Want to discuss a ROS feature or get the latest ROS news?
+    url: https://discourse.ros.org/
+    about: ROS Discourse is our community discussion forum.
