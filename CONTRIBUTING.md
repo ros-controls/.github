@@ -76,7 +76,7 @@ Please keep the following in mind:
 
 We use Sphinx with [Read The Docs theme](https://docs.readthedocs.io/en/stable/index.html) for documentation.
 
-General information is located in the [control.ros.org](https://github.com/ros-controls/ros2_control) repository, while the documentation for the packages is written in the respective repositories.
+General information is located in the [control.ros.org](https://github.com/ros-controls/control.ros.org) repository, while the documentation for the packages is written in the respective repositories.
 
 ## Licensing
 
