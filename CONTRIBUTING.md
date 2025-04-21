@@ -70,7 +70,11 @@ Please keep the following in mind:
 
 6. Be aware of the impact a PR has and give other maintainers and contributors sufficient time for the review proportional to its impact. Ping them if necessary, repeatedly if necessary.
 
-> Even if you are not a maintainer, you are still encouraged to review pull requests. This helps us increase the review pace and increase code quality. Also, you are very likely to find some issues/limitations nobody else is seeing.
+~~~text
+Even if you are not a maintainer, you are still encouraged to review pull requests.
+This helps us increase the review pace and increase code quality.
+Also, you are very likely to find some issues/limitations nobody else is seeing.
+~~~
 
 ## Writing Documentation
 
@@ -84,13 +88,15 @@ Any contribution that you make to this project will
 be under the Apache 2 License, as dictated by that
 [license](http://www.apache.org/licenses/LICENSE-2.0.html):
 
-> 5. Submission of Contributions. Unless You explicitly state otherwise,
-> any Contribution intentionally submitted for inclusion in the Work
-> by You to the Licensor shall be under the terms and conditions of
-> this License, without any additional terms or conditions.
-> Notwithstanding the above, nothing herein shall supersede or modify
-> the terms of any separate license agreement you may have executed
-> with Licensor regarding such Contributions.
+~~~text
+5. Submission of Contributions. Unless You explicitly state otherwise,
+any Contribution intentionally submitted for inclusion in the Work
+by You to the Licensor shall be under the terms and conditions of
+this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify
+the terms of any separate license agreement you may have executed
+with Licensor regarding such Contributions.
+~~~
 
 ## Repository Structure and CI configuration
 
