@@ -60,15 +60,15 @@ Please keep the following in mind:
 
 1. Please work from your fork when submitting PR. That way, we are keeping the main repo clean from feature branches.
 
-1. Each PR should have all checks satisfied before they can be considered for merging.
+2. Each PR should have all checks satisfied before they can be considered for merging.
 
-1. Each PR must be approved by two maintainers (explicitly, please!). Only exceptions are PR's from other active maintainers in the repository, where one approval backed up with traceable discussion is sufficient.
+3. Each PR must be approved by two maintainers (explicitly, please!). Only exceptions are PR's from other active maintainers in the repository, where one approval backed up with traceable discussion is sufficient.
 
-1. There is no need to do "squash and merge" of commits to your PR. We will squash the commits when merging the PR into the head branch.
+4. There is no need to do "squash and merge" of commits to your PR. We will squash the commits when merging the PR into the head branch.
 
-1. Please do not do "cowboy-style" PR merges over the weekend. It doesn't matter how trivial PR is. Give people a chance to do a proper review and comment on it.
+5. Please do not do "cowboy-style" PR merges over the weekend. It doesn't matter how trivial PR is. Give people a chance to do a proper review and comment on it.
 
-1. Be aware of the impact a PR has and give other maintainers and contributors sufficient time for the review proportional to its impact. Ping them if necessary, repeatedly if necessary.
+6. Be aware of the impact a PR has and give other maintainers and contributors sufficient time for the review proportional to its impact. Ping them if necessary, repeatedly if necessary.
 
 > Even if you are not a maintainer, you are still encouraged to review pull requests. This helps us increase the review pace and increase code quality. Also, you are very likely to find some issues/limitations nobody else is seeing.
 
@@ -121,7 +121,7 @@ We use the following naming conventions for branches:
 
 **Stable branches**:
 
-* Name: ``<ros_distro>`` (e.g., foxy, galactic)
+* Name: ``<ros_distro>`` (e.g., humble, jazzy)
 * CI rule for merge:
 
   * must: ``semi-binary`` (working against the same stable branch of other ros2_control repositories)
