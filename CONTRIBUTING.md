@@ -1,17 +1,14 @@
 # Contributing Guidelines
-Thank you for your interest in contributing to `ros2_control`.
-Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
-
+First, thank you for considering contributing to the ros2_control project.
+As an open-source project, we welcome each contributor, regardless of their background and experience.
+To reduce the entropy of the universe and our vivid, open, and collaborative environment, we have set up some standards and methods for contributions.
 
 ## Reporting Bugs/Feature Requests
+
 We welcome you to use the GitHub issue tracker to report bugs or suggest features.
 
-When filing an issue, please check [existing open][issues], or [recently closed][closed-issues], issues to make sure
- somebody else hasn't already reported the issue.
+When filing an issue, please check existing open issues or recently closed issues to make sure somebody else hasn't already reported the issue.
 Please try to include as much information as you can. Details like these are incredibly useful:
 
 * A reproducible test case or series of steps
@@ -19,25 +16,30 @@ Please try to include as much information as you can. Details like these are inc
 * Any modifications you've made relevant to the bug
 * Anything unusual about your environment or deployment
 
+## Finding Contributions to Work on
+
+Looking at the existing issues is a great way to find something to contribute on.
+We created a project board to help you find issues that are good for newcomers, see the [Contributing Board](https://github.com/orgs/ros-controls/projects/11).
 
 ## Contributing via Pull Requests
-The following guidance should be up-to-date, but the documentation as found [here](https://control.ros.org/master/doc/contributing/contributing.html#pull-requests) should prove as the final say.
 
-Contributions via pull requests are much appreciated.
-Before sending us a pull request, please ensure that:
+Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
 
-1. Limited scope. Your PR should do one thing or one set of things. Avoid adding “random fixes” to PRs. Put those on separate PRs.
+1. Limited scope. Your PR should do one thing or one set of things. Avoid adding "random fixes" to PRs. Put those on separate PRs.
+
 2. Give your PR a descriptive title. Add a short summary, if required.
+
 3. Make sure the pipeline is green.
-4. Don’t be afraid to request reviews from maintainers.
+
+4. Don't be afraid to request reviews from maintainers.
+
 5. New code = new tests. If you are adding new functionality, always make sure to add some tests exercising the code and serving as live documentation of your original intention.
 
-To send us a pull request, please:
+**To send us a pull request, please:**
 
 1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing.
-  If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass. (`colcon test` and `pre-commit run` (requires you to install pre-commit by `pip3 install pre-commit`)
+2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
+3. Ensure local tests pass. (``colcon test`` and ``pre-commit run`` (requires you to install pre-commit by ``pip3 install pre-commit``)
 4. Commit to your fork using clear commit messages.
 5. Send a pull request, answering any default questions in the pull request interface.
 6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
@@ -45,29 +47,90 @@ To send us a pull request, please:
 GitHub provides additional documentation on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
 [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
+## Rules for the Repositories and Process of Merging Pull Requests
 
-## Finding contributions to work on
-Looking at the existing issues is a great way to find something to contribute on.
-As this project, by default, uses the default GitHub issue labels
-  (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any ['help wanted'][help-wanted] issues
-  is a great place to start.
+This section targets maintainers, but you are also welcome to read it to understand the process of how we handle PRs in our organization.
+This guideline is especially applicable for the following repositories:
 
+* ros2_control,
+* ros2_controllers,
+* ros2_control_demos.
+
+Please keep the following in mind:
+
+1. Please work from your fork when submitting PR. That way, we are keeping the main repo clean from feature branches.
+
+2. Each PR should have all checks satisfied before they can be considered for merging.
+
+3. Each PR must be approved by two maintainers (explicitly, please!). Only exceptions are PR's from other active maintainers in the repository, where one approval backed up with traceable discussion is sufficient.
+
+4. There is no need to do "squash and merge" of commits to your PR. We will squash the commits when merging the PR into the head branch.
+
+5. Please do not do "cowboy-style" PR merges over the weekend. It doesn't matter how trivial PR is. Give people a chance to do a proper review and comment on it.
+
+6. Be aware of the impact a PR has and give other maintainers and contributors sufficient time for the review proportional to its impact. Ping them if necessary, repeatedly if necessary.
+
+~~~text
+Even if you are not a maintainer, you are still encouraged to review pull requests.
+This helps us increase the review pace and increase code quality.
+Also, you are very likely to find some issues/limitations nobody else is seeing.
+~~~
+
+## Writing Documentation
+
+We use Sphinx with [Read The Docs theme](https://docs.readthedocs.io/en/stable/index.html) for documentation.
+
+General information is located in the [control.ros.org](https://github.com/ros-controls/control.ros.org) repository, while the documentation for the packages is written in the respective repositories.
 
 ## Licensing
-Any contribution that you make to this repository will
+
+Any contribution that you make to this project will
 be under the Apache 2 License, as dictated by that
 [license](http://www.apache.org/licenses/LICENSE-2.0.html):
 
-~~~
+~~~text
 5. Submission of Contributions. Unless You explicitly state otherwise,
-   any Contribution intentionally submitted for inclusion in the Work
-   by You to the Licensor shall be under the terms and conditions of
-   this License, without any additional terms or conditions.
-   Notwithstanding the above, nothing herein shall supersede or modify
-   the terms of any separate license agreement you may have executed
-   with Licensor regarding such Contributions.
+any Contribution intentionally submitted for inclusion in the Work
+by You to the Licensor shall be under the terms and conditions of
+this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify
+the terms of any separate license agreement you may have executed
+with Licensor regarding such Contributions.
 ~~~
 
-[issues]: https://github.com/ros-controls/ros2_control/issues
-[closed-issues]: https://github.com/ros-controls/ros2_control/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20
-[help-wanted]: https://github.com/ros-controls/ros2_control/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
+## Repository Structure and CI configuration
+
+Three build stages are checking the current and future compatibility of the framework.
+
+1. ``binary`` - against released packages (main and testing) in ROS distributions. This shows that direct local build is possible.
+
+2. ``semi-binary`` - against released core ROS packages (main and testing), but the immediate dependencies are pulled from the source.
+   This shows that local build with dependencies is possible, and if it fails there, we can expect that after the next package sync, we will not be able to build.
+
+3. ``source`` - also core ROS packages are build from source. It shows potential issues in the mid future.
+
+Each repository has two types of branches: development, and stable.
+PR's should always be submitted against the development branch.
+When the PR is accepted, and there are no API and ABI changes to a stable branch, the maintainers will consider a backport to the stable branches.
+
+We use the following naming conventions for branches:
+
+**Development branch**:
+
+* Name: ``master``
+* CI rule for merge:
+
+  * must: ``semi-binary`` (working against development branch of ros2_control)
+  * good: ``binary``      (working against the same stable branch of other ros2_control repositories)
+
+* ``source`` build each day check against master branches of ROS 2
+
+**Stable branches**:
+
+* Name: ``<ros_distro>`` (e.g., humble, jazzy)
+* CI rule for merge:
+
+  * must: ``semi-binary`` (working against the same stable branch of other ros2_control repositories)
+  * must: ``binary``    (working against released versions of ros2_control) - except for adding new non-braking features
+
+* ``source`` build each day against distribution branches
