@@ -15,7 +15,6 @@ Looking to get started with `ros2_control`? Our [installation guide is here](htt
 ## Community Resources
 * [ros2_control Discussion Forum](https://discourse.ros.org/) – for general discussions
 * [Robotics Stack Exchange](https://robotics.stackexchange.com/) (preferred ros2_control support forum) – tag your questions with **ros2_control**
-* Cite `ros2_control` in academic work using [DOI: 10.21105/joss.00456](https://hal.science/hal-01662418/)
 
 ## Developer Resources
 * [ros2_control Documentation](https://control.ros.org/)
