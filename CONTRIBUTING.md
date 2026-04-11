@@ -31,9 +31,11 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 
 3. Make sure the pipeline is green.
 
-4. Don't be afraid to request reviews from maintainers.
+4. New code = new tests. If you are adding new functionality, always make sure to add some tests exercising the code and serving as live documentation of your original intention.
 
-5. New code = new tests. If you are adding new functionality, always make sure to add some tests exercising the code and serving as live documentation of your original intention.
+5. If a PR is merged all commits will get squashed, a linear commit history is not required.
+
+6. Once a PR got reviewed, please don't do force pushes as this will break github UI and subsequent reviews will take more time.
 
 **To send us a pull request, please:**
 
