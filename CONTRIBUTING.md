@@ -27,24 +27,26 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 
 1. Limited scope. Your PR should do one thing or one set of things. Avoid adding "random fixes" to PRs. Put those on separate PRs.
 
-2. Give your PR a descriptive title. Add a short summary, if required.
+1. Give your PR a descriptive title. Add a *short* summary, if required.
 
-3. Make sure the pipeline is green.
+1. Aim for under 500 lines changed (additions plus deletions, tests included). Avoid over 1000. If it grows past that, try splitting it.
 
-4. New code = new tests. If you are adding new functionality, always make sure to add some tests exercising the code and serving as live documentation of your original intention.
+1. Make sure the pipeline is green.
 
-5. If a PR is merged all commits will get squashed, a linear commit history is not required.
+1. New code = new tests. If you are adding new functionality, always make sure to add some tests exercising the code and serving as live documentation of your original intention.
 
-6. Once a PR got reviewed, please don't do force pushes as this will break github UI and subsequent reviews will take more time.
+1. If a PR is merged all commits will get squashed, a linear commit history is not required.
+
+1. Once a PR got reviewed, please don't do force pushes as this will break github UI and subsequent reviews will take more time.
 
 **To send us a pull request, please:**
 
 1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass. (``colcon test`` and ``pre-commit run`` (requires you to install pre-commit by ``pip3 install pre-commit``)
-4. Commit to your fork using clear commit messages.
-5. Send a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
+1. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
+1. Ensure local tests pass. (``colcon test`` and ``pre-commit run`` (requires you to install pre-commit by ``pip3 install pre-commit``)
+1. Commit to your fork using clear commit messages.
+1. Send a pull request, answering any default questions in the pull request interface.
+1. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
 
 GitHub provides additional documentation on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
 [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
